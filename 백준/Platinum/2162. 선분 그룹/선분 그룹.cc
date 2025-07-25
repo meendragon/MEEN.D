@@ -58,7 +58,6 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     vector<Line> lines;
-    vector<int> group;
     int n;cin >> n;
     parent.resize(n+1);
     group_size.resize(n+1,1);
